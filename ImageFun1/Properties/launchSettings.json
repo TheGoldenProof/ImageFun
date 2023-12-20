@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ImageFun1": {
+      "commandName": "Project",
+      "commandLineArgs": "-i \"C:\\Users\\fireb\\OneDrive\\Pictures\\Album Covers\\Irodori\\album4.jpg\" -o \"L:\\Coding\\CS\\ImageFun\\ImageFun1\\output\\\\\" -f 2.0 -c white #ff4500 #87ceeb #4169e1 -h 32 -m dotp"
+    }
+  }
+}

@@ -41,9 +41,9 @@ namespace ImageFun1 {
             [Option('a', "alpha", Default=false)]
             public bool Alpha { get { return alpha; } }
 
-            [Option('w', "kernelWidth", Default=1)]
+            [Option('w', "kernel-width", Default=1)]
             public int KernelWidth { get { return kernelWidth; } }
-            [Option('h', "kernelWeight", Default=16)]
+            [Option('h', "kernel-height", Default=16)]
             public int KernelHeight { get {  return kernelHeight; } }
         }
 

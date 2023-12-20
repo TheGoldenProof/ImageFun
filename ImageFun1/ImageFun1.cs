@@ -51,6 +51,7 @@ namespace ImageFun1 {
                 Console.WriteLine("Error: Image height is smaller than kernel height.");
                 return;
             }
+            if(!opts.Output.Exists) Directory.CreateDirectory(opts.Output.FullName);
 
             Vector4[,] pixelsIn = new Vector4[imgIn.Width, imgIn.Height];
             for(int x = 0; x < imgIn.Width; x++)

@@ -36,7 +36,6 @@ namespace ImageFun1 {
         }
 
         public static void Run(Program.Options opts) {
-            int kernelArea = opts.KernelWidth * opts.KernelHeight;
             List<string> colorNames;
             List<Vector4> colors = ParseColors(opts.Colors, out colorNames);
             int mode = opts.Mode switch {
@@ -63,7 +62,7 @@ namespace ImageFun1 {
                     images[i] = new Bitmap(imgIn.Width, imgIn.Height);
 
             float[] counts = new float[colors.Count];
-            Vector4 sum = Vector4.Zero;
+            Vector4 sum;
             for(int x = 0; x < imgIn.Width - opts.KernelWidth; x += opts.KernelWidth) {
                 for(int y = 0; y < imgIn.Height - opts.KernelHeight; y += opts.KernelHeight) {
 
@@ -93,9 +92,9 @@ namespace ImageFun1 {
                     for (int i = 0; i < colors.Count; i++) {
                         Color c = Color.FromArgb(
                             255,
-                            (byte)(255 * colors[i].X),
-                            (byte)(255 * colors[i].Y),
-                            (byte)(255 * colors[i].Z));
+                            (int)(255 * colors[i].X),
+                            (int)(255 * colors[i].Y),
+                            (int)(255 * colors[i].Z));
 
                         if (mode == 0) {
                             float max = Math.Max(colors[i].X, Math.Max(colors[i].Y, colors[i].Z)) / opts.KernelWidth;

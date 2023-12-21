@@ -1,6 +1,6 @@
 {
   "FileVersion": 2,
-  "Id": "de8b530d-4dda-4547-8455-99ef37cf8528",
+  "Id": "8a20c030-f704-41c5-99da-e1d9ece600b1",
   "Items": [
     {
       "Id": "44e7aa89-e92a-4b19-8915-43a35eb4a0a5",
@@ -11,20 +11,20 @@
       "Command": "-o \"L:\\Coding\\CS\\ImageFun\\ImageFun1\\output\\\\\""
     },
     {
-      "Id": "489d257c-8b0b-4255-a883-7e232c8c2139",
-      "Command": "-f 2.0"
-    },
-    {
-      "Id": "1fb10376-8326-481b-9e42-3ad323666feb",
-      "Command": "-c white #ff4500 #87ceeb #4169e1"
-    },
-    {
       "Id": "6ea7ff03-7530-4d0c-b861-338991ca650a",
       "Command": "-w 1"
     },
     {
       "Id": "7bf1ec11-f118-4491-a9da-4db45162b747",
       "Command": "-h 32"
+    },
+    {
+      "Id": "489d257c-8b0b-4255-a883-7e232c8c2139",
+      "Command": "-f 2.0"
+    },
+    {
+      "Id": "1fb10376-8326-481b-9e42-3ad323666feb",
+      "Command": "-c white #ff4500 #87ceeb #4169e1"
     },
     {
       "Id": "717b35ad-85bf-47fc-b98d-03dce45918d1",

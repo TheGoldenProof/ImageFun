@@ -26,7 +26,7 @@ namespace ImageFun1 {
             [Option('i', "input", Required=true)]
             public FileInfo Input { get { return input; } }
 
-            [Option('o', "output", Required=true)] 
+            [Option('o', "output", Required=true, HelpText ="Must be a directory (ending with a slash)")] 
             public FileInfo Output { get { return output; } }
 
             [Option('c', "colors", Default="white", HelpText ="A list of Microsoft color names (case-insensitive) or hex codes (starting with #)")]

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Pixel Sorter 4": {
+      "commandName": "Project",
+      "commandLineArgs": "-i \"C:\\Users\\fireb\\OneDrive\\Pictures\\Album Covers\\Irodori\\album4.jpg\" -o \"L:\\Coding\\CS\\ImageFun\\Pixel Sorter 4\\output\\\\\" -h 64 -s saturationhsb[ value lightness"
+    }
+  }
+}
